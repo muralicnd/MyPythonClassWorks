@@ -46,4 +46,12 @@ Pop-Location
 python -m pytest -q
 ```
 
+**Continuous Integration**
+
+- This repository includes a GitHub Actions workflow that runs tests on pushes and pull requests. The workflow file is at `.github/workflows/ci.yml` and runs `pytest` on supported Python versions.
+
+**Default branch**
+
+- The repository now uses `main` as the primary branch. Pushes and PRs against `main` will trigger the CI workflow.
+
 To change the project name, rename the `my_project` package and update `pyproject.toml`.
