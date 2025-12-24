@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: MyPythonClassWork
+Version: 0.1.0
+Summary: A minimal Python project scaffold
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# my_project
+
+A minimal Python project scaffold created for you.
+
+Quick start (PowerShell):
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m my_project
+python -m pytest -q
+```
+
+Quick start (bash):
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m my_project
+python -m pytest -q
+```
+
+Project layout:
+
+- `src/my_project/` - package source
+- `tests/` - pytest tests
+- `pyproject.toml` - project metadata
+- `requirements.txt` - runtime and test deps
+
+To change the project name, rename the `my_project` package and update `pyproject.toml`.

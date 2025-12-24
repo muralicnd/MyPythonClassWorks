@@ -1,0 +1,6 @@
+# Add runtime dependencies here
+# Example:
+# numpy>=1.25
+
+# Test dependencies
+pytest>=7.0

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/MyPythonClassWork.egg-info/PKG-INFO
+src/MyPythonClassWork.egg-info/SOURCES.txt
+src/MyPythonClassWork.egg-info/dependency_links.txt
+src/MyPythonClassWork.egg-info/entry_points.txt
+src/MyPythonClassWork.egg-info/top_level.txt
+src/my_project/__init__.py
+src/my_project/main.py
+src/mypythonclasswork/__init__.py
+src/mypythonclasswork/main.py
+tests/test_main.py
